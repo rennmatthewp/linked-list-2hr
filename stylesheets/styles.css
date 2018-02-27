@@ -21,7 +21,7 @@ header {
   justify-content: center;
 }
 
-section {  
+section {
   width: 50vw;
   height: 100vh;
   padding: 20px;
@@ -34,7 +34,7 @@ h1 {
   width: fit-content;
   font-weight: 800;
   font-size: 3.25rem;
-  color: #FFF;
+  color: #fff;
   margin-bottom: 50px;
 }
 
@@ -52,11 +52,11 @@ input {
   max-width: 388px;
   font-size: 24px;
   padding: 5px;
-  border: 1px solid #BBBDBF;
+  border: 1px solid #bbbdbf;
 }
 
 input::placeholder {
-  color: #BBBDBF;
+  color: #bbbdbf;
 }
 
 button {
@@ -71,7 +71,8 @@ button {
   background-color: #ffc107;
 }
 
-button:hover, button:disabled {
+button:hover,
+button:disabled {
   background-color: #ffd773;
   cursor: not-allowed;
 }
@@ -105,3 +106,6 @@ article {
   justify-content: space-between;
 }
 
+.read-button-clicked {
+  color: #f05a28;
+}
